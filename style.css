@@ -13,10 +13,22 @@ body {
 
 /* Header */
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
-  text-align: left;
   background-color: #ff9029;
   color: white;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-right {
+  display: flex;
+  gap: 40px;
+  text-align: right;
 }
 
 /* Main Layout */
@@ -30,7 +42,7 @@ body {
 .column {
   padding: 20px;
   background-color: #ddd;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* Widths */
