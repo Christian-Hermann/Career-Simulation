@@ -59,6 +59,18 @@ body {
   flex: 1;
 }
 
+.contact-form {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  padding: 80px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Footer */
 .footer {
   padding: 20px;
